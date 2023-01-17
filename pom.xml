@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.4-SNAPSHOTS</version>
+	<version>0.0.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -20,7 +20,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.12.110:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.91.200:9000/</sonar.host.url>
 		<sonar.login>fd1351c2fc10947d4a6a9acf213ff39a38098397</sonar.login>
 	     <!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.68.246:8081/repository/tesla202-release/</url> 
+	      <url>http://172.31.80.225:8081/repository/hd-pro-release/</url> 
 	    </repository>
 	   
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.68.246:8081/repository/tesla202-snapshots/</url>
+	      <url>http://172.31.80.225:8081/repository/hd-pro-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
